@@ -1186,15 +1186,13 @@
 // 请替换为您的实际 AppID 和 AppKey
 const LEANCLOUD_CONFIG = {
     APP_ID:EbUnWsKPYC9pTbhukuf8aNqe-gzGzoHsz,
-    APP_KEY: SrUVb4rXu31JoTtnNZ4X07CP',
-    SERVER_URL: '您的ServerURL'
+    APP_KEY: SrUVb4rXu31JoTtnNZ4X07CP,
 };
 
 // 初始化 LeanCloud
 AV.init({
     appId: LEANCLOUD_CONFIG.APP_ID,
     appKey: LEANCLOUD_CONFIG.APP_KEY,
-    serverURL: LEANCLOUD_CONFIG.SERVER_URL
 });
 
 // 原有的跑步记录数据初始化
@@ -3203,4 +3201,5 @@ addRecordBtn.addEventListener('click', async function() {
         document.addEventListener('DOMContentLoaded', initPage);
     </script>
 </body>
+
 </html>
